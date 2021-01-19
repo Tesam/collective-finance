@@ -12,14 +12,14 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.collective.finance.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_transaction"
+        android:name="com.collective.finance.ui.transaction.TransactionsFragment"
+        android:label="@string/title_transaction"
+        tools:layout="@layout/fragment_transactions" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.collective.finance.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_limits"
+        android:name="com.collective.finance.ui.limits.LimitsFragment"
+        android:label="@string/title_limits"
+        tools:layout="@layout/fragment_limits" />
 </navigation>
