@@ -7,13 +7,13 @@
         android:title="@string/title_home" />
 
     <item
-        android:id="@+id/navigation_dashboard"
+        android:id="@+id/navigation_transaction"
         android:icon="@drawable/ic_baseline_attach_money_black_24dp"
-        android:title="@string/title_dashboard" />
+        android:title="@string/title_transaction" />
 
     <item
-        android:id="@+id/navigation_notifications"
+        android:id="@+id/navigation_limits"
         android:icon="@drawable/ic_baseline_table_chart_black_24dp"
-        android:title="@string/title_notifications" />
+        android:title="@string/title_limits" />
 
 </menu>

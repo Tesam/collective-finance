@@ -1,13 +1,13 @@
-package com.collective.finance.ui.notifications
+package com.collective.finance.ui.transaction
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class NotificationsViewModel : ViewModel() {
+class TransactionsViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is notifications Fragment"
+        value = "This is transactions Fragment"
     }
     val text: LiveData<String> = _text
 }
